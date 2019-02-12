@@ -246,4 +246,4 @@ for name, col, coord in zip(wDBAsthma["City"], wDBAsthma["Color"],
 oMap.add_child(wChoroLayer)
 oMap.add_child(wCityLayer)
 oMap.add_child(folium.LayerControl())
-# oMap.save("Asthma and Air Quality map.html")
+oMap.save("Asthma and Air Quality map.html")
