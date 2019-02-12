@@ -1,88 +1,17 @@
-# Project Title
+# Asthma and Air Quality 
 
-One Paragraph of project description goes here
+This project looked at the link between the prevalence of asthma in 500 American cities and the Air Quality Index of the county those cities are in.
 
-## Getting Started
+# To replicate the findings
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+If you wish to replicate the map and figure, you will need to download files. The links are also in the Main.py file:
+* [Health data from the 500 cities project](https://chronicdata.cdc.gov/500-Cities/500-Cities-Local-Data-for-Better-Health-2018-relea/6vp6-wxuq)
+* [Air quality data for many US counties](https://aqs.epa.gov/aqsweb/airdata/annual_aqi_by_county_2015.zip)
+* [List of cities and the info on their county](https://simplemaps.com/data/us-cities)
+* [Shapefile of the counties](http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_county_5m.zip). 
 
-### Prerequisites
+The shapefile needs to be uploaded to [Mapshaper](www.mapshaper.org) and then saved as a GEOjson.
+Take these four files and put them in a subdirectory named /data 
+You can now use the script, which should generate a jpg file for the figure and a html file for the map
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+# Results
