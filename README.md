@@ -15,4 +15,5 @@ Take these four files and put them in a subdirectory named /data
 You can now use the script, which should generate a jpg file for the figure and a html file for the map
 
 # Results
-![Map generated using Folium](Asthma-Air-Quality/Asthma_and_Air_Quality_screencap.jpg)
+![Map generated using Folium](Asthma_and_Air_Quality_screencap.jpg)
+![Plot showing the influence of smoking and air quality on asthma](Asthma_Smoking_and_AQI.jpg)
