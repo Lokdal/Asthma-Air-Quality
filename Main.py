@@ -205,7 +205,7 @@ oAsthmaSmokeAQI.set_ylabel("Age Adjusted Smoking Prevalence")
 oAsthmaSmokeAQI.get_legend().set_title("Age Ajusted ")
 oAsthmaSmokeAQI.set(title="Relationship between AQI, smoking and asthma in "
                           + "474 big cities of the USA (2015)")
-oAsthmaSmokeAQI.get_figure().savefig("Asthma Smoking and AQI.jpg")
+oAsthmaSmokeAQI.get_figure().savefig("Asthma_Smoking_and_AQI.jpg")
 # =====
 
 # In[]:
@@ -246,4 +246,4 @@ for name, col, coord in zip(wDBAsthma["City"], wDBAsthma["Color"],
 oMap.add_child(wChoroLayer)
 oMap.add_child(wCityLayer)
 oMap.add_child(folium.LayerControl())
-oMap.save("Asthma and Air Quality map.html")
+oMap.save("Asthma_and_Air_Quality_map.html")
