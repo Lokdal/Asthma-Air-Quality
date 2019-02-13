@@ -15,5 +15,10 @@ Take these four files and put them in a subdirectory named /data
 You can now use the script, which should generate a jpg file for the figure and a html file for the map
 
 # Results
+On this map, we see the Median Air Quality Index of about 1000 USA counties, from best (in light yellow) to worst (in dark red).
+Each green, yellow and red dots represent one of 476 cities found in the 500 cities database. The cities with the lowest prevalence are in green, and those with the highest, in red.
 ![Map generated using Folium](Asthma_and_Air_Quality_screencap.jpg)
+
+
+This plot shows how the air quality (horizontal axis) and smoking prevalence (vertical axis) are linked with asthma prevalence. It seems that air quality is almost uncorrelated to asthma prevalence, whereas smoking is clearly linearly correlated.
 ![Plot showing the influence of smoking and air quality on asthma](Asthma_Smoking_and_AQI.jpg)
