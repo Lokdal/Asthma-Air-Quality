@@ -210,7 +210,7 @@ oAsthmaSmokeAQI.get_figure().savefig("Asthma_Smoking_and_AQI.jpg")
 
 # In[]:
 # Create a choropleth map of air quality
-oMap = folium.Map((39.8283, -98.5795), zoom_start=5, tiles="Stamen Toner")
+oMap = folium.Map((39.8283, -98.5795), zoom_start=5, tiles="Stamen Terrain")
 
 # Only use the counties for which air quality data is available
 wGeoData = dict({"type": "FeatureGroup", "features": []})
